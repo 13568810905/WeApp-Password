@@ -4,24 +4,24 @@
  */
 
 text {
-  color: #fff;
+  color: #FFF;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 page {
-  background-color: #373739;
+  background-color: #FFF;
 }
 
 .mainBlue {
-  background-color: #3e649f;
+  background-color: #2693ff;
 }
 
 .lightBlue {
-  background-color: #0a5bd0;
+  background-color: #60b0ff;
 }
 
 .darkBlue {
-  background-color: #143a76;
+  background-color: #207ad4;
 }
 
 .mainRed {
@@ -36,10 +36,10 @@ page {
   background-color: #7aca6d;
 }
 .mainWhite{
-  background-color: #fff;
+  background-color: #000;
 }
 .mainWhite text{
-  color:#000;
+  color:#fff;
 }
 
 /*

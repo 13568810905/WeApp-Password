@@ -4,10 +4,10 @@ Page({
     // 定义页面的跳转
     config:[
       {
-        "url":"/page/backup/backup",
+        "url": "",///page/backup/backup
         "name":"数据备份",
         "desc":"备份/恢复",
-        "color":"mainRed",
+        "color":"mainBlue",
         "typed" :"restore"
       },
       // {
@@ -18,24 +18,24 @@ Page({
       //    "typed" :"cloud"
       // },
       {
-        "url":"/page/book/book",
+        "url": "",///page/book/book
         "name":"使用指南",
         "desc":"教你玩转运维密码",
-        "color":"mainRed",
+        "color":"mainBlue",
          "typed" :"book"
       },
       {
-        "url":"/page/about/about",
+        "url": "",///page/about/about
         "name":"关于我们",
         "desc":"运维密码和我们",
-        "color":"mainRed",
+        "color":"mainBlue",
          "typed" :"about"
       },
       {
-        "url":"/page/feedback/feedback",
+        "url": "",///page/feedback/feedback
         "name":"建议反馈",
         "desc":"倾听来自您的意见",
-        "color":"mainRed",
+        "color":"mainBlue",
         "typed" :"feedback"
       }
     ]
