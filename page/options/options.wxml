@@ -1,6 +1,6 @@
 <import src="../../util/template/card.wxml" />
 <view class="flexBox">
    <block wx:for="{{config}}" >
-    <template is="optionCard" data="{{...item}}"></template>
+    <template is="myOptionCard" data="{{...item}}"></template>
    </block>
 </view>

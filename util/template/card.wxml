@@ -42,3 +42,21 @@
 
   <!-- Card End -->
 </template>
+
+<template name="myOptionCard">
+
+  <!-- Card -->
+  <navigator url="{{url}}">
+    <view class="optionCard {{color}}">
+      <text class="iconfont icon-{{typed}}" style="font-size:60rpx;line-height:60rpx; opacity: 0.8;margin-left:10rpx;"></text>
+      <text class="optionName">{{name}}</text>
+      <view class="optionText">
+        <view class="optionInfo">
+          <text class="optionDesc">{{desc}}</text>
+        </view>
+      </view>
+    </view>
+  </navigator>
+
+  <!-- Card End -->
+</template>

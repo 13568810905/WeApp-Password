@@ -85,13 +85,17 @@ page {
 .optionCard{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  border-radius: 10rpx;
-  padding: 20rpx;
-  margin: 10rpx 20rpx;
+  align-items: center;
+  justify-content: initial;
+  border-radius: 15rpx;
+  padding: 30rpx 40rpx 30rpx 20rpx;
+  margin: 15rpx 30rpx;
 }
 .optionInfo{
   text-align: right;
+}
+.optionText{
+  flex: 1;
 }
 .optionDesc{
   font-size: 35rpx;
@@ -101,13 +105,13 @@ page {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
   padding-bottom: 20rpx;
 }
 
 .optionName{
-  font-size: 70rpx;
-  text-align: right;
+  font-size: 45rpx;
+  text-align: left;
 }
 
 
