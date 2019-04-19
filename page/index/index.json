@@ -1,7 +1,7 @@
 {
     "navigationBarBackgroundColor": "#3B3A41",
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "运维密码",
+    "navigationBarTitleText": "SSH动态口令牌",
     "backgroundColor": "#8a8a8a",
     "backgroundTextStyle": "light",
     "enablePullDownRefresh": true
