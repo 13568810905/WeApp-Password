@@ -25,7 +25,7 @@ Page({
          "typed" :"book"
       },
       {
-        "url": "/page/about/about",//
+        "url": "/page/about/about",
         "name":"关于我们",
         "desc":"运维密码和我们",
         "color":"mainBlue",

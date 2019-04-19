@@ -23,8 +23,8 @@
 }
 
 .viewCode {
-  font-size: 90rpx;
-  line-height: 40rpx;
+  font-size: 120rpx;
+  line-height: 70rpx;
   margin-bottom: 80rpx;
 }
 
