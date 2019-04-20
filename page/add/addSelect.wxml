@@ -1,0 +1,11 @@
+<!--page/add/addSelect.wxml-->
+<view class="flexBox">
+  <view class="addCard" catchtap="addServer">
+    <text class="iconfont icon-scan"></text>
+    <text class="addText">扫码添加</text>
+  </view>
+  <view class="addCard" catchtap="addServer">
+    <text class="iconfont icon-feedback"></text>
+    <text class="addText">手动输入</text>
+  </view>
+</view>

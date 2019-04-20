@@ -14,7 +14,8 @@
     "page/view/view",
     "page/view/qr",
     "page/view/edit",
-    "page/feedback/feedback"
+    "page/feedback/feedback",
+    "page/add/addSelect"
   ],
   "tabBar": {
     "color": "#8a8a8a",
@@ -29,7 +30,7 @@
         "selectedIconPath": "images/community-fill.png"
       },
       {
-        "pagePath": "page/index/index",
+        "pagePath": "page/add/addSelect",
         "text": "添加",
         "iconPath": "images/add-box-line.png",
         "selectedIconPath": "images/add-box-fill.png"

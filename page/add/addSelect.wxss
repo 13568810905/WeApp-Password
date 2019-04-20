@@ -1,0 +1,19 @@
+.addCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 10rpx;
+  border:  5rpx #080808 dashed;
+  padding: 150rpx;
+  margin: 20rpx 20rpx 0;
+  opacity: 0.8;
+}
+
+.flexBox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 20rpx;
+  font-size: 60rpx;
+}

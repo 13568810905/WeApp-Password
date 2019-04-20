@@ -82,23 +82,21 @@ Page({
       url: '../view/view?id=' + e.currentTarget.dataset.key
     })
   },
+  // 扫码添加场景
+  /*
   addServer: function (e) {
     wx.scanCode({
       success: function (res) {
-        /** 
-         * url decode 
-         */
+        // url decode
         var source = decodeURIComponent(res.result);
         var data = source.split("otpauth://totp/")[1];
-        /**
-         * 数据截断
-         */
-        var isHaveIssuer = data.split("?")[0].indexOf(":") != -1 && data.split("?")[0].indexOf(":") != 0 ;
+        // 数据截断
+        var isHaveIssuer = data.split("?")[0].indexOf(":") != -1 && data.split("?")[0].indexOf(":") != 0;
         if (isHaveIssuer) {
           console.log(data);
           var username = data.split("?")[0].split(":")[1];
         } else {
-          
+
           console.log(data);
           var username = data.split("?")[0];
         }
@@ -125,6 +123,7 @@ Page({
       }
     })
   },
+  */
   refreshData: function (e) {
     var that = this;
     var raw_servers = wx.getStorageSync('servers');
