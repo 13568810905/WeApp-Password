@@ -25,14 +25,20 @@
       {
         "pagePath": "page/index/index",
         "text": "场景",
-        "iconPath": "images/index.png",
-        "selectedIconPath": "images/index_hl.png"
+        "iconPath": "images/community-line.png",
+        "selectedIconPath": "images/community-fill.png"
+      },
+      {
+        "pagePath": "page/index/index",
+        "text": "添加",
+        "iconPath": "images/add-box-line.png",
+        "selectedIconPath": "images/add-box-fill.png"
       },
       {
         "pagePath": "page/options/options",
         "text": "设置",
-        "iconPath": "images/option.png",
-        "selectedIconPath": "images/option_hl.png"
+        "iconPath": "images/settings-3-line.png",
+        "selectedIconPath": "images/settings-3-fill.png"
       }
     ]
   },

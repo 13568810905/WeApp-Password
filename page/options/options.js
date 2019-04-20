@@ -6,37 +6,30 @@ Page({
       {
         "url": "/page/about/about",///page/backup/backup
         "name":"数据备份",
-        "desc":"备份/恢复",
-        "color":"mainYellow",
-        "typed" :"restore"
+      //  "desc":"备份/恢复",
+        "color":"mainWhite",
+        "typed" :"cloud"
       },
-      // {
-      //   "url":"/page/view/view",
-      //   "name":"云服务",
-      //   "desc":"同步云端",
-      //   "color":"mainBlue",
-      //    "typed" :"cloud"
-      // },
       {
         "url": "/page/about/about",///page/book/book
         "name":"使用指南",
-        "desc":"教你玩转运维密码",
-        "color":"mainYellow",
-         "typed" :"book"
+      //  "desc":"教你使用动态口令牌",
+        "color":"mainWhite",
+         "typed" :"other"
       },
       {
         "url": "/page/about/about",
         "name":"关于我们",
-        "desc":"运维密码和我们",
-        "color":"mainYellow",
-         "typed" :"about"
+      //  "desc":"关于SSH动态口令牌",
+        "color":"mainWhite",
+         "typed" :"backup"
       },
       {
         "url": "/page/about/about",///page/feedback/feedback
         "name":"建议反馈",
-        "desc":"倾听来自您的意见",
-        "color":"mainYellow",
-        "typed" :"feedback"
+      //  "desc":"倾听来自您的意见",
+        "color":"mainWhite",
+        "typed" :"about"
       }
     ]
   },
